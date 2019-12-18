@@ -1,0 +1,3 @@
+Examples:
+|email|password|username|
+|a1_#{generate(regexify '[a-z]{5}"@"[A-Z]{2}"."[A-Z]{2}')}|#{generate(regexify '[a-z]{8}')}|first last|
